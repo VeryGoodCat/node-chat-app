@@ -23,6 +23,6 @@ $('#message-form').on('submit', function (e) {
     from: 'User',
     text: $('[name=message]').val()
   }, function () {
-    
-  }); 
+  });
+  $('[name=message]').val('');
 });
